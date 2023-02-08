@@ -12,8 +12,10 @@
 * Check out the coverage report.
 
 * Upload the coverage report to Codacy for the main branch:
-  bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r cobertura.xml
+  export CODACY_PROJECT_TOKEN=<TOKEN>
+    get TOKEN at https://app.codacy.com/gh/nicklem/test-python/settings/coverage
   bash <(curl -Ls https://coverage.codacy.com/get.sh)
+    it's a shorthand for bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r cobertura.xml
 
 * Check that the UI on Codacy shows the new report.
 
@@ -21,13 +23,13 @@
   * git checkout -b some-changes
 
 * Explain how branches work
-  * git checkout main 
-  * echo "some content" > some_file
-  * git add some_file
-  * git commit -m "a change"
-    * Show the Git tab on Pycharm.
-  * git reset --hard HEAD~1
-  * git checkout some-changes
+  git checkout main 
+  echo "some content" > some_file
+  git add some_file
+  git commit -m "a change"
+    Show the Git tab on Pycharm.
+  git reset --hard HEAD~1
+  git checkout some-changes
 
 * Change the test results (for example, by adding an untested function)
 
