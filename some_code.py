@@ -7,6 +7,11 @@ def add_two(x):
     x = x + 2
     return x
 
+
+def add_three(x):
+    x = x + 3
+    return x
+
 # Tests
 
 
