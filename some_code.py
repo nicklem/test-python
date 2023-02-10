@@ -16,4 +16,3 @@ def test_add_one():
 
 def test_add_two():
     assert add_two(1) == 3
-
