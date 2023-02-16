@@ -45,3 +45,5 @@
   git push
 
 * Open the PR on GitHub, wait for Codacy to detect the PR.
+
+* This line is here just to trigger a Codacy warning. You can ignore it.
