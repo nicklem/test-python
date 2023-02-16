@@ -45,7 +45,3 @@
   git push
 
 * Open the PR on GitHub, wait for Codacy to detect the PR.
-
-* Adding an instruction, just for fon and testing purposes.
-
-* Adding an instruction, just for fon and testing purposes.
