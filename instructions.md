@@ -1,12 +1,12 @@
-* Start from main:
+-   Start from main:
   git checkout main
 
-* Show around the code: functions, tests, conventions.
+-   Show around the code: functions, tests, conventions.
 
-* Run pytest to show what happens:
+-   Run pytest to show what happens:
   pytest some_code.py
 
-* Generate a coverage report:
+-   Generate a coverage report:
   pytest --cov-report xml:cobertura.xml --cov=. *.py
 
 * Check out the coverage report.
