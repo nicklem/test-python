@@ -1,4 +1,4 @@
-* Start from main:
+-   Start from main:
   git checkout main
 
 -   Show around the code: functions, tests, conventions.
