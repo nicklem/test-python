@@ -49,3 +49,4 @@
 -   This line is here just to trigger a Codacy warning. You can ignore it.
 
 * This line is here just to trigger a Codacy warning. You can ignore it.
+
