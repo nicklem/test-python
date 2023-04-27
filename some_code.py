@@ -23,3 +23,6 @@ def test_add_two():
     assert add_two(1) == 3
 
 
+def my_function():
+    """"""
+    pass
